@@ -10,7 +10,7 @@
 
 Terraformにif文はありませんが、条件式を使えば似たようなことができます。
 
-`step4`ディレクトリを作成、移動して実施ください。以降のプラクティスはすべて`step4`ディレクトリ内で行う想定です。`versions.tf`を作成しておいてください。必要に応じて`main.tf`、`varibales.tf`、`output.tf`、`terraform.tfvars`も作成してください。すべてのリソースにはStep=step4のタグを設定します。ファイルはステップ内で同じものを続けて使ったください。
+`step4`ディレクトリを作成、移動して実施ください。以降のプラクティスはすべて`step4`ディレクトリ内で行う想定です。`versions.tf`を作成しておいてください。必要に応じて`main.tf`、`varibales.tf`、`output.tf`、`terraform.tfvars`も作成してください。すべてのリソースにはStep=step4のタグを設定します。ファイルはステップ内で同じものを続けて使ってください。
 
 ## 4-1. 三項演算子によるパラメータの分岐
 
@@ -47,7 +47,7 @@ $ aws ec2 describe-vpc-attribute --attribute enableDnsHostnames --vpc-id <vpc id
 
 ## 4-2. 三項演算子とループによるリソースの分岐
 
-ループ(count/for_each)と組み合わせるばリソースレベルでの分岐もできます。
+ループ(count/for_each)と組み合わせればリソースレベルでの分岐もできます。
 
 ### ただ分岐させたい場合
 
