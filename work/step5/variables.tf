@@ -11,3 +11,7 @@ variable "subnet_cidrs" {
 variable "instance_type" {
   type = string
 }
+
+variable "base_name" {
+  type = string
+}
